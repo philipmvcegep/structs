@@ -1,0 +1,33 @@
+Exercice en C
+-------------------
+
+Faites les opérations suivantes sur une pile (Stack):
+
+Créer une pile vide avec une capacité maximale de 10.
+
+Empilez les valeurs suivantes dans cet ordre:
+3, puis 6, puis 2.
+
+Faites un pop() pour enlever le sommet, puis ajoutez un 5 avec push(). Résultat attendu au sommet:
+5 (sommet) -> 6 -> 3 (fond)
+
+Ajouter l'élément 5 par-dessus. Résultat attendu au sommet:
+5 (sommet) -> 5 -> 6 -> 3 (fond)
+
+Vous pouvez commencer avec VisualAlgo, si la tâche semble intimidante.
+
+
+Exercice en Python
+-------------------
+
+Implémenter la méthode search dans la structure, qui retourne le Node concerné s'il est trouvé ou -1 sinon.
+
+
+Exercices en Java
+------------------
+
+Implémentez la méthode removeBottom, qui retire l'élément au fond de la pile et le retourne.
+L'algorithme doit préserver l'ordre des noeuds et changer la pile pour exclure seulement le fond de la pile.
+
+
+Implémenter la méthode clearEvenElements, qui retire tous les valeurs négatives de la pile.
