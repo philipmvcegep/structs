@@ -2,23 +2,23 @@
 
 ## Structure du Git
 
-1 - Glossaire: Définition des termes courants utilisés dans le cours
+1. Glossaire: Définition des termes courants utilisés dans le cours
 
-2 - Structures: Structures de données courantes, codes en Java, C et Python. Exercices.
+2. Structures: Structures de données courantes, codes en Java, C et Python. Exercices.
 
-3 - Tris: Différents tris, implémentation et complexités
+3. Tris: Différents tris, implémentation et complexités
 
-4 - Complexité: Calcul d'une complexité algorithmique selon différentes méthodes.
+4. Complexité: Calcul d'une complexité algorithmique selon différentes méthodes.
 
-5 - Hachage: Algorithmes pour créer un Hash, considérations importantes.
+5. Hachage: Algorithmes pour créer un Hash, considérations importantes.
 
-6 - Paradigmes: Différentes façons de concevoir un code (procédural, fonctionnel, orienté objet)
+6. Paradigmes: Différentes façons de concevoir un code (procédural, fonctionnel, orienté objet)
 
-7 - Ressources: Contenu de soutien au cours et sites Web utiles
+7. Ressources: Contenu de soutien au cours et sites Web utiles
 
-8 - Threads: Utiliser le parralélisme pour faire plusieurs opérations en simultané.
+8. Threads: Utiliser le parralélisme pour faire plusieurs opérations en simultané.
 
-9 - Big Data: Travailler avec des données massives, afin de réduire le nombre d'opérations.
+9. Big Data: Travailler avec des données massives, afin de réduire le nombre d'opérations.
 
 ## Travaux pratiques
 
@@ -28,21 +28,21 @@ Selon la progression dans le cours, voici les attentes par rapport au code:
 
 ### TP1
 
-Le code résoud la problématique énoncée.
-Le code est propre et commenté au besoin.
+- Le code résoud la problématique énoncée.
+- Le code est propre et commenté au besoin.
 
 
 ### TP2
 
-Le code résoud la problématique énoncée.
-Le code est propre et lisible sans commentaires.
-La complexité algorithmique est prise en considération.
+- Le code résoud la problématique énoncée.
+- Le code est propre et lisible sans commentaires.
+- La complexité algorithmique est prise en considération.
 
 ### TP3 (final)
 
-Le code résoud la problématique énoncée.
-Le code est propre, lisible, et suit les conventions standard.
-Le code est traité dans un temps raisonnable avec un test de charge.
+- Le code résoud la problématique énoncée.
+- Le code est propre, lisible, et suit les conventions standard.
+- Le code est traité dans un temps raisonnable avec un test de charge.
 
 ### Classement des problèmes.
 
@@ -51,11 +51,11 @@ Pour chaque TP, la note est calculée en fonction du nombre d'exercices réalis�
 
 Un exercice très facile vaut 1 point, tandis qu'un exercice très difficile vaut 5 points
 
-Seuil 1: 12 points (max: 90%)
+1. Seuil 1: 12 points (max: 90%)
 
-Seuil 2: 16 points (max: 95%)
+2. Seuil 2: 16 points (max: 95%)
 
-Seuil 3: 20 points (max: 100%)
+3. Seuil 3: 20 points (max: 100%)
 
 
 ### Évaluation en classe
@@ -66,17 +66,17 @@ Pour les problèmes plus complexes (3 et plus), une question supplémentaire est
 
 Au minimum 2 codes parmi ceux résolus devront être expliqués en cours.
 
-Excellentes explications, bonnes réponses aux complications: 100%
+A) Excellentes explications, bonnes réponses aux complications: 100%
 
-Explications satisfaisantes, quelques réponses aux complications: 95%
+B) Explications satisfaisantes, quelques réponses aux complications: 95%
 
-Explications satisfaisantes, pas de réponse aux complications: 90%
+C) Explications satisfaisantes, pas de réponse aux complications: 90%
 
-Explications décentes, quelques détails manqués: 85%
+D) Explications décentes, quelques détails manqués: 85%
 
-Explications décentes, détails clé manqués: 80%
+E) Explications décentes, détails clé manqués: 80%
 
-Explications médiocres: 75% ou moins.
+F) Explications médiocres: 75% ou moins.
 
 
 
