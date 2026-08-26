@@ -1,0 +1,19 @@
+Allocation dynamique : Mécanisme permettant de réserver de la mémoire à la volée pendant l'exécution d'un programme (sur le Heap), par opposition à l'allocation statique décidée à la compilation.
+
+Stack (La Pile) : Zone mémoire gérée automatiquement par le système où sont stockées les variables locales et les fonctions en cours d'exécution (principe du dernier entré, premier sorti).
+
+Heap (Le Tas) : Zone de la mémoire vive utilisée pour l'allocation dynamique où les données persistent jusqu'à ce qu'elles soient explicitement libérées (ou gérées par un ramasse-miettes).
+
+**Le Stack et le Heap sont fondamentalement des structures de données, mais elles désignent aussi comment un ordinateur exécute un programme.**
+
+Complexité algorithmique (Notation Grand O) : Outil mathématique permettant d'évaluer l'efficacité d'un algorithme en fonction de la taille des données d'entrée ($n$). Elle mesure comment le temps d'exécution ou l'espace mémoire évolue lorsque $n$ grandit. Exemple: O(n) est une complexité linéaire.
+
+Déférencement : Action d'accéder à la valeur stockée à une adresse mémoire spécifique en utilisant un pointeur (via l'opérateur * en C).
+
+Contiguïté (Mémoire contiguë) : Caractéristique d'un espace de stockage où les éléments sont disposés les uns à la suite des autres sans interruption en mémoire (comme dans un tableau ou une ArrayList).
+
+Nœud (Node) : Élément de base d'une structure de données non contiguë (comme les listes chaînées ou les arbres) qui encapsule une valeur et un ou plusieurs liens vers d'autres nœuds.
+
+Pointeur : Variable spéciale dont la valeur correspond à l'adresse mémoire d'une autre variable ou d'un autre bloc de données.
+
+RAM (Random Access Memory) : Mémoire vive de l'ordinateur. C'est un espace de stockage temporaire ultra-rapide où le processeur lit et écrit les données des programmes en cours d'exécution.
