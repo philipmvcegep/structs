@@ -1,0 +1,34 @@
+Exercices en C
+---------------
+Faites les opérations suivantes sur une liste chainée:
+
+Créer la liste suivante:
+3 -> 6 -> 2 -> NULL
+
+Ajouter un Node avec la valeur 5 à la fin de la liste et enlever le head. Résultat attendu:
+6 -> 2 -> 5 -> NULL
+
+Ajouter l'élément 5 à la deuxième position. Résultat attendu:
+6 -> 5 -> 2 -> 5 -> NULL
+
+Vous pouvez commencer avec VisualAlgo, si la tâche semble intimidante.
+
+
+Exercice en Python
+------------------
+
+Implémentez la fonction search, qui prend en argument head et une certaine valeur, et retourne le Node contenant cette valeur.
+Si aucun Node dans la LinkedList contient la valeur demandée, retournez -1
+
+
+
+Exercice en Java
+------------------
+Implémentez la méthode invert, qui prend head en argument et inverse l'ordre de la liste chaînée. (LeetCode 206)
+
+Implémentez la méthode find_middle, qui retourn la valeur centrale d'une liste chaînée. 
+Si le nombre de noeuds est pair, retournez la deuxième valeur. Exemple:
+
+1 -> 3 -> 5 -> 7 -> 9 -> NULL # retourne 5
+
+2 -> 5 -> 4 -> 9 -> NULL # retourne 4 
