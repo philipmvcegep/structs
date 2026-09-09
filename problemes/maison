@@ -1,0 +1,11 @@
+(5 points) Implémenter un deque en C (liste doublement chaînée)
+
+(2 points) Créer la fonction invert_queue en C à partir de queue.c
+
+(3 points) Implémenter un deque en Python avec une liste dynamique (sans collections)
+
+(3 points) En Java, créer la fonction combine_stacks(stack1, stack2).
+La fonction prend en arguments deux stacks chaînées et retourne un stack trié les combinant. 
+
+(3 points) En Java, créer une fonction CustomStringHash, qui regroupe les anagrammes.
+Utiliser une fonction de hachage polynomial (https://cp-algorithms.com/string/string-hashing.html)

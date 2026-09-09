@@ -1,0 +1,139 @@
+Exercices en C
+---------------
+Faites les opérations suivantes sur une liste chainée:
+
+Créer la liste suivante:
+3 -> 6 -> 2 -> NULL
+
+Ajouter un Node avec la valeur 5 à la fin de la liste et enlever le head. Résultat attendu:
+6 -> 2 -> 5 -> NULL
+
+Ajouter l'élément 5 à la deuxième position. Résultat attendu:
+6 -> 5 -> 2 -> 5 -> NULL
+
+Vous pouvez commencer avec VisualAlgo, si la tâche semble intimidante.
+
+
+Solution: 
+
+// utilitaire
+void print(struct Node* head) {
+    struct Node* temp = head;
+    while (temp != NULL) {
+        printf("%d -> ", temp->data);
+        temp = temp->next;
+    }
+    printf("NULL\n");
+}
+
+int main() {
+    struct Node* head = NULL;
+    
+    insertAtEnd(&head, 3);
+    insertAtEnd(&head, 6);
+    insertAtEnd(&head, 2);
+    
+    insertAtEnd(&head, 5);
+    deleteFromFirst(&head);
+    
+    insertAtPosition(&head, 5, 1);
+    
+    print(head);
+    return 0;
+}
+
+
+Exercice en Python
+------------------
+
+Implémentez la fonction search, qui prend en argument head et une certaine valeur, et retourne le Node contenant cette valeur.
+Si aucun Node dans la LinkedList contient la valeur demandée, retournez -1
+
+
+Solution:
+
+def search(head, value):
+    current = head
+    while current is not None:
+        if current.data == value:
+            return current
+        current = current.next
+    return -1
+
+
+Exercices en Java
+------------------
+Implémentez la méthode invert, qui prend head en argument et inverse l'ordre de la liste chaînée. (LeetCode 206)
+
+Solution ListNode:
+
+public ListNode invert(ListNode head) {
+    ListNode prev = null;
+    ListNode current = head;
+    while (current != null) {
+        ListNode nextTemp = current.next;
+        current.next = prev;
+        prev = current;
+        current = nextTemp;
+    }
+    return prev;
+}
+
+Solution collections: 
+
+import java.util.LinkedList;
+import java.util.Collections;
+
+public class LinkedListUtils {
+    public static LinkedList<Integer> invert(LinkedList<Integer> list) {
+        // Option 1 : Utiliser l'utilitaire natif de Java
+        // Collections.reverse(list);
+        
+        // Option 2 : Implémentation manuelle par inversion de LinkedList
+        LinkedList<Integer> inverted = new LinkedList<>();
+        for (Integer value : list) {
+            inverted.addFirst(value); // Insérer chaque élément au début inverse l'ordre
+        }
+        return inverted;
+    }
+}
+
+
+Implémentez la méthode find_middle, qui retourn la valeur centrale d'une liste chaînée. 
+Si le nombre de noeuds est pair, retournez la deuxième valeur. Exemple:
+
+1 -> 3 -> 5 -> 7 -> 9 -> NULL # retourne 5
+
+2 -> 5 -> 4 -> 9 -> NULL # retourne 4 
+
+
+Solution ListNode:
+
+public int find_middle(ListNode head) {
+    ListNode slow = head;
+    ListNode fast = head;
+    
+    while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    
+    return slow.val;
+}
+
+Solution collections:
+
+import java.util.LinkedList;
+
+public class LinkedListUtils {
+    public static int find_middle(LinkedList<Integer> list) {
+        if (list == null || list.isEmpty()) {
+            throw new IllegalArgumentException("La liste est vide");
+        }
+        
+        // Si le nombre de nœuds est pair, retourne la deuxième valeur (taille / 2)
+        // Exemple : taille 4 -> index 2 (la 3e valeur, mais l'énoncé demande la deuxième si pair ex: 2 -> 5 -> 4 -> 9 donne 4, ce qui correspond à l'index size / 2)
+        int middleIndex = list.size() / 2;
+        return list.get(middleIndex);
+    }
+}
