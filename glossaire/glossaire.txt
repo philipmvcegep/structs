@@ -17,3 +17,10 @@ Nœud (Node) : Élément de base d'une structure de données non contiguë (comm
 Pointeur : Variable spéciale dont la valeur correspond à l'adresse mémoire d'une autre variable ou d'un autre bloc de données.
 
 RAM (Random Access Memory) : Mémoire vive de l'ordinateur. C'est un espace de stockage temporaire ultra-rapide où le processeur lit et écrit les données des programmes en cours d'exécution.
+
+SIMD: Same instruction, multiple data. Il s'agit de la vectorisation, qui permet de faire la même opération sur un bloc contigu au lieu d'un élément.
+
+SoA: Structure of Arrays, est un objet avec plusieurs listes. Utile en big data, quand on veut optimiser les opérations SIMD sur les données.
+
+AoS: Array of structures, est une liste d'objets. Utile en jeu vidéo, quand chaque personnage a ses attributs.
+
