@@ -23,6 +23,6 @@ expanded_network_graph = {
     'Isolated_User': []
 }
 
-print("BFS Traversal (Expanded Network):")
-print(bfs(expanded_network_graph, 'Alice'))
+print("DFS Traversal (Expanded Network):")
+print(dfs(expanded_network_graph, 'Alice'))
 print("DONE\n")
