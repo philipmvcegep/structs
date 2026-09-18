@@ -24,3 +24,8 @@ Problème 1971 (1 point)
 Problème 207 (2 points)
 Problème 210 (2 points)
 Problème 797 (3 points)
+
+Arbres
+----------
+Problème 112 (3 points)
+Problème 226 (2 points)

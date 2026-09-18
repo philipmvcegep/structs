@@ -9,3 +9,13 @@ La fonction prend en arguments deux stacks chaînées et retourne un stack trié
 
 (3 points) En Java, créer une fonction CustomStringHash, qui regroupe les anagrammes.
 Utiliser une fonction de hachage polynomial (https://cp-algorithms.com/string/string-hashing.html)
+
+(5 points) Implémentez un code de Huffmann pour compresser le texte suivant:
+
+texte_a_compresser = (
+    "les arbres facilitent la recherche. chaque noeud possede des enfants."
+    " le code de huffman compresse les donnees efficacement. la structure"
+    " hierarchique ameliore les performances."
+)
+
+Affichez le facteur de compression du texte.

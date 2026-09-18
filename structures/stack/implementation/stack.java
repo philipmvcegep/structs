@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Main {
+public class stack {
     
     // Function to push an element onto the stack (avec le message d'affichage du C)
     public static void push(Stack<Integer> stack, int value) {
