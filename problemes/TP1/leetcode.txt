@@ -28,4 +28,4 @@ Problème 797 (3 points)
 Arbres
 ----------
 Problème 112 (3 points)
-Problème 226 (2 points)
+Problème 501 (2 points)
