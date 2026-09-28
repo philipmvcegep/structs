@@ -1,0 +1,4 @@
+(3 pts) Créer un tri par sceaux en Python, en O(kn).
+Les élements du tableau sont des nombres à 4 chiffres.
+
+(2 pts) Implémenter un tri sélection sur une LinkedList en Java.
