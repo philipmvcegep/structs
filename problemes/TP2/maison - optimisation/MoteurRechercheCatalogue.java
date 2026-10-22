@@ -1,5 +1,5 @@
 /**
- * Planificateur de routes logistiques.
+ * Planificateur de routes logistiques (3 pts)
  * 
  * Contexte Métier : Une entreprise de livraison modélise son réseau d'entrepôts
  * sous forme de graphe pour vérifier la faisabilité de transport entre sites.

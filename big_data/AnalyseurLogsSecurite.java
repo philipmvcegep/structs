@@ -3,10 +3,12 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+
 public class AnalyseurLogsSecurite {
 
     // Tâche : Filtrer les requêtes provenant d'une liste d'IPs bloquées
-    public static List<String> filtrerRequetesSuspectes(List<String> tousLesLogs, Set<String> ipsBloquees) {
+    public static List<String> filtrerRequetesSuspectes(List<String> tousLesLogs, 
+        Set<String> ipsBloquees) {
         List<String> logsSuspects = new ArrayList<>();
         
         for (String log : tousLesLogs) {
@@ -31,7 +33,7 @@ public class AnalyseurLogsSecurite {
         
         for (int i = 0; i < n; i++) {
             logs.add("192.168.1." + (i % 5000) + " GET /index.html");
-            if (i < 1000) bloquees.add("192.168.1." + i);
+            if (i < 100000) bloquees.add("192.168.1." + i);
         }
 
         long debut = System.currentTimeMillis();

@@ -9,6 +9,12 @@ Arbres
 ----------
 Problème 112 (3 points)
 Problème 501 (2 points)
+--new--
+Problème 543 (3 points)
+Problème 236 (3 points)
+Problème 22  (4 points)
+
+
 
 Tris et recherche
 ----------

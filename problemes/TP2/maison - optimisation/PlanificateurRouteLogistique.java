@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
- * Gestionnaire de classement VIP pour marketing.
+ * Gestionnaire de classement VIP pour marketing (3 pts)
  * 
  * Contexte Métier : Le département marketing souhaite extraire les K meilleurs clients
  * d'une base de données de fidélité contenant des millions de profils.

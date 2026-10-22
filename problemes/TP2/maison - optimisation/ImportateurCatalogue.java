@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * Analyseur d'importation de catalogue fournisseur.
+ * Analyseur d'importation de catalogue fournisseur (2 pts)
  * 
  * Contexte Métier : Un système ERP importe chaque matin un fichier CSV contenant
  * des milliers de références produits fournies par des tiers pour éviter les doublons.
