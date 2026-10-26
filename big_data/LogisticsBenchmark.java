@@ -7,7 +7,7 @@ public class LogisticsBenchmark {
     }
 
     public static void main(String[] args) {
-        int size = 10000; // 10 000 éléments
+        int size = 100000; // 10 000 éléments
         List<TimeSlot> slotsNaive = new ArrayList<>();
         List<TimeSlot> slotsOpt = new ArrayList<>();
 
@@ -22,6 +22,7 @@ public class LogisticsBenchmark {
         // Pour que la version optimisée ait un vrai travail de tri à faire, 
         // on mélange les éléments de slotsOpt au départ.
         Collections.shuffle(slotsOpt, new Random(42));
+        Collections.shuffle(slotsNaive, new Random(42));
 
         // --- Test 2A : Version Naïve (O(n^2)) ---
         // Pas de conflit = la double boucle va jusqu'au bout (~50 millions d'itérations)
