@@ -144,7 +144,6 @@ public class ThreadExercises {
 
             }
         }
-    }
 
     public static void exercise4() throws InterruptedException {
 
