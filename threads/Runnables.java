@@ -108,8 +108,7 @@ public class Runnables {
         t1.start();
         t2.start();
 
-        t1.join();
-        t2.join();
+   
 
         // Solution sécurisée : AtomicInteger
         SafeCounterTask safeCounter = new SafeCounterTask();
