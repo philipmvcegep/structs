@@ -1,5 +1,4 @@
 # Concurrence moderne en Java : Guide des threads virtuels et mécanismes clés
-*Document d'accompagnement pour les étudiants en informatique*
 
 ---
 
